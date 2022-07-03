@@ -27,7 +27,7 @@ const Itm: React.FC<Props> = ({ src, text, open = true }) => {
             justifyContent: 'center'
           }}
         >
-          <img src={src} />
+          <img src={src} alt={src} />
         </ListItemIcon>
         <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
       </ListItemButton>

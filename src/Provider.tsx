@@ -30,3 +30,5 @@ const Prov: React.FC<Props> = ({ children }) => {
 }
 
 export default Prov
+
+export type RootState = ReturnType<typeof store.getState>
