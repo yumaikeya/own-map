@@ -1,0 +1,18 @@
+[{
+  "name": "bridge",
+  "longitude": 139.83795120040617,
+  "latitude": 35.70173203785271,
+  "height": 3024,
+  "width": 4032,
+  "pitch": 45,
+  "rotation": 0
+},
+{
+  "name": "blueBridge",
+  "longitude": 139.841266544663,
+  "latitude": 35.700990861089394,
+  "height": 3024,
+  "width": 4032,
+  "pitch": 45,
+  "rotation": 0
+}]

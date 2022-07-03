@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "Provider": ["./Provider"],
+      "Assets/*": ["assets/*"],
+      "Pages/*": ["pages/*"],
+      "Features/*": ["features/*"], 
+      "Components/*": ["components/*"],
+      "Layouts/*": ["layouts/*"],
+      "Services/*": ["services/*"],
+      "Redux/*": ["redux/*"]
+    }
+  }
+}
