@@ -8,7 +8,8 @@
       "Components/*": ["components/*"],
       "Layouts/*": ["layouts/*"],
       "Services/*": ["services/*"],
-      "Redux/*": ["redux/*"]
+      "Redux/*": ["redux/*"],
+      "Constants/*": ["constants/*"]
     }
   }
 }

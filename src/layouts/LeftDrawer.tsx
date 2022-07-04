@@ -105,7 +105,6 @@ const LeftDrawer: React.FC<Props> = ({ children }) => {
       <AppBar position='fixed' open={open}>
         <Toolbar>
           <IconButton
-            color="inherit"
             onClick={() => setOpen(true)}
             style={{
               display: open && 'none'
@@ -117,7 +116,6 @@ const LeftDrawer: React.FC<Props> = ({ children }) => {
       <Drawer variant='permanent' open={open}>
         <DrawerHeader>
           <IconButton
-            color="primary"
             onClick={() => setOpen(false)}
             style={{
               display: !open && 'none'

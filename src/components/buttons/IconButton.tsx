@@ -3,12 +3,12 @@ import IconButton from '@mui/material/IconButton'
 
 type Props = {
   src: 'string | undefined'
-  color: 'inherit' | 'default' | 'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning'
-  style: object
+  color?: 'inherit' | 'default' | 'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning'
+  style?: object
   onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void
 }
 
-const Button:React.FC<Props> = ({src, color, onClick, style}) => {
+const Button: React.FC<Props> = ({ src, color, onClick, style }) => {
   return (
     <IconButton
       color={color || 'primary'}
